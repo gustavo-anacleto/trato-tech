@@ -11,7 +11,7 @@ function Busca() {
 
     useEffect(() => {
         dispacth(resetarBusca())
-    }, [location.pathname])
+    }, [location.pathname, dispacth])
 
     return (
         <div className={styles.busca}>
